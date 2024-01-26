@@ -1,0 +1,354 @@
+<html>
+    <head>
+        <title> Myntra Clone</title>
+        <link rel="icon" type="image/x-icon" href="myntra logo.jpeg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+  *{
+margin: 0;
+padding: 0;
+font-family: Arial;
+box-sizing: border-box;
+}
+
+.navbar{
+    /*position: fixed;
+    z-index: 5;*/
+    height: 90px;
+    background-color:#d8b7b7 ;
+    /*color: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 3px 15px;
+  
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+}
+.logo{
+    background-image:url(myntra\ logo.jpeg) ;
+    background-size: cover;
+height: 50px;
+width: 100%;
+mix-blend-mode: color-burn;
+}
+.option{
+width: 60%;
+}
+.men p{
+    display:inline ;
+    margin-left: 10px;
+}
+.p1{
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.p1:hover{
+    border-bottom: 2px solid black;
+    color: aqua;
+}
+
+.p2{
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.p2:hover{
+    border-bottom: 2px solid black;
+    color: aqua;
+}
+.p3{
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.p3:hover{
+    border-bottom: 2px solid black;
+    color: aqua;
+  
+}
+.p4{
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.p4:hover{
+    border-bottom: 2px solid black;
+    color: aqua;
+}
+.p5{
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.p5:hover{
+    border-bottom: 2px solid black;
+    color: aqua;
+    
+}
+
+.men:hover{
+   
+}
+.nav-input{
+    border: 1px solid rgb(253, 219, 185);
+   border-radius: 5px 5px 5px 5px ;
+}
+.nav-input:hover{
+   /* border:2px solid black ;*/
+    background-color: white;
+}
+.profile{
+cursor: pointer;
+}
+.profile:hover{
+ border-bottom: 3px solid red ;
+ color: aquamarine;
+
+}
+.wishlist{
+cursor: pointer;
+}
+.wishlist:hover{
+ color: aquamarine;
+ border-bottom: 3px solid red ;
+}
+.bag{
+cursor: pointer;
+}
+.bag:hover{
+  color: aquamarine;
+  border-bottom: 3px solid red ;
+}
+
+.hero-section{
+    margin-top: 10px;
+        background-image: url("myntra1.jpg");
+        background-size: cover;
+        height: 380px;
+        animation: hero 16s infinite;
+     }
+         @keyframes hero{
+       0%{
+        background-image: url(myntra1.jpg);
+       }
+       25%{
+        background-image: url(myntra2.webp);
+       }
+       50%{
+        background-image: url(myntra3.jpg);
+       }
+       75%{
+        background-image: url(myntra4.jpeg);
+       }
+
+     }
+     .medal{
+        margin-top: 100px;
+        margin-left: 50px;
+     }
+     .image{
+      
+       cursor: pointer;
+        margin-left: 20px;
+        margin-top: 40px;
+        display: flex;
+        
+        
+
+     }
+     .image img{
+        border: 1px solid black;
+     }
+     .image img:hover{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+     }
+     .image2{
+      
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 50px;
+        display: flex;
+     }
+     .image2 img{
+        border: 1px solid rgb(245, 202, 159);
+     }
+     .image2 img:hover{
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+     .brand{
+        margin-top: 100px;
+        margin-left: 50px; 
+        
+     }
+     .text-all{
+        background-color: rgb(247, 246, 246);
+     }
+     .horizontal{
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 25px;
+     }
+     .horizontal p{
+        margin-left: 30px;
+     }
+     /*.horizontal p:hover{
+        color:red;
+     }*/
+     .part{
+        margin-top: 50px;
+        margin-left: 30px;
+     }
+     .part-p{
+        margin-left: 30px;
+        font-size: 15px;
+        margin-top: 20px;
+        line-height: 30px;
+     }
+     .side{
+        position: relative;
+        left: 800px;
+        bottom: 50px;
+     }
+     .online{
+        margin-left: 30px;
+        margin-top: 50px;
+     }
+     .online-p{
+        margin-left: 30px;
+        margin-top: 20px;
+     }
+     
+        </style>
+    </head>
+
+    <body>
+       <header>
+
+        <div class="navbar">
+        <div class="nav-logo">
+            <div class="logo">
+
+            </div>
+
+        </div>
+        <div class="option">
+            <div class="men">
+                <P class="p1" >MEN</P>
+                <P class="p2"  >WOMEN</P>
+                <P class="p3"  >KIDS</P>
+                <P class="p4"  >HOME & LEAVING</P>
+                <P class="p5"  >STUDIO</P>
+           <!--  <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">HOME & LEAVING</a>
+            <a href="#">BEAUTY</a>
+            <a href="#">STUDIO</a>-->
+           
+           
+        </div>
+        </div>
+        <div class="nav-input">
+            <i class="fa-solid fa-magnifying-glass" style="background-color: whitesmoke;"></i>
+            <input type="" placeholder="Search for product,brands">
+        </div>
+        <div class="profile">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <p style="color: black;">profile</p>
+        </div>
+        <div class="wishlist">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <p style="color: black;">wishlist</p>
+
+        </div>
+        <div class="bag">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <p style="color: black;">Bag</p>
+
+        </div>
+        </div>
+       </header> 
+       <div class="hero-section">
+
+       </div> 
+       <div class="medal">
+        <h2>MEDAL WORTHY BRANDS TO BAG</h2>
+       </div>
+      <div class="image">
+       <img src="OIP1.jpeg" alt="1">
+       <img src="OIP2.jpeg" alt="">
+       <img src="OIP3.jpeg" alt="">
+       <img src="OIP4.jpeg" alt="">
+       <img src="OIP5.jpeg" alt="">
+       <img src="OIP6.jpeg" alt="">
+       <img src="OIP7.jpeg" alt="">
+       <!--<img src="OIP8.jpeg" alt="">
+       <img src="OIP9.jpeg" alt="">-->
+
+      </div><br/>
+      <div class="brand">
+        <h2>GRAND GLOBAL BRANDS</h2>
+      </div>
+      <div class="image2">
+        <img src="OIP1.jpeg" alt="1">
+        <img src="OIP2.jpeg" alt="">
+        <img src="OIP3.jpeg" alt="">
+        <img src="OIP4.jpeg" alt="">
+        <img src="OIP5.jpeg" alt="">
+        <img src="OIP6.jpeg" alt="">
+        <img src="OIP7.jpeg" alt="">
+      <!-- <img src="OIP8.jpeg" alt="">
+        <img src="OIP9.jpeg" alt="">-->
+      </div>
+      <div class="text-all">
+      <div class="horizontal">
+       <h4>POPULAR SEARCHES</h4><hr><br>
+       <div>
+       <p>Makeup  |  Dresses For Girls  |  T-Shirts | Sandals  |  Headphones  |  Babydolls  |  Blazers For Men  |  Handbags |
+         Ladies Watches  |  Bags  |  Sport Shoes  |  Reebok Shoes   |  Puma Shoes  |  Boxers  |  Wallets  |  Tops  |  Earrings  |  Fastrack 
+          Watches  |  Kurtis  |  Nike  |  Smart Watches  |  Titan Watches  |  Designer Blouse  |  Gowns  |  Rings  |  Cricket Shoes  |  Forever 21  |
+           Eye Makeup  |  Photo Frames  |  Punjabi Suits  |  Bikini  |  Myntra Fashion Show  |  Lipstick  |  Saree  |  Watches  |  Dresses  |  Lehenga  |
+            Nike Shoes | Goggles  | Bras  |  Suit  |  Chinos  |  Shoes  |  Adidas Shoes  |  Woodland Shoes  |  Jewellery  |  Designers Sarees</p>
+        </div>
+      </div><br/><br/><hr>
+       <div class="part">
+        <h4>Registered Office Address</h4>
+        <div class="part-p">
+        <p>Buildings Alyssa,</p>
+        <p>Begonia and Clover situated in Embassy Tech Village,</p>
+        <p>Outer Ring Road,</p>
+        <p>Devarabeesanahalli Village,</p>
+        <p>Varthur Hobli,</p>
+        <p>Bengaluru – 560103, India</p>
+        </div>
+        <div class="side">
+         <p>CIN: U72300KA2007PTC041799</p>
+         <p>Telephone: +91-9306282979</p>
+        </div>
+       </div><hr>
+       <div class="online">
+        <h4>ONLINE SHOPPING MADE EASY AT MYNTRA</h4>
+        <div class="online-p">
+        <p>If you would like to experience the best of online shopping for men, women and kids in India,
+             you are at the right place. Myntra is the ultimate destination for fashion and lifestyle,
+              being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, 
+              personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items.
+               Our online store brings you the latest in designer products straight out of fashion houses. 
+            You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.</p>
+        </div>
+       </div><br><br>
+    </div>
+
+    </body>
+</html>
